@@ -1,4 +1,4 @@
-<section id="top_live" class="clearfix">
+<!-- <section id="top_live" class="clearfix">
 	<header>
 		<h1>Live</h1>
 		<a href="#" class="more">
@@ -144,4 +144,4 @@
 			</li>
 		</ul>
 	</div>
-</section>
+</section> -->

@@ -514,7 +514,7 @@ header h1 img {
     line-height: 1.75;
     background-color: var(--primary-background-color);
     color: var(--secondary-background-color);
-    /*background: url(../img/top/bt_product_bg.jpg) center no-repeat;*/
+   
     /*background-size: cover*/
 }
 
@@ -598,6 +598,48 @@ header h1 img {
     background-color: rgba(0, 94, 72, .95);
 }
 
+
+    #paint_index .bg_c button{
+        display: inline-block;
+        border-radius: 15px;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 12px;
+        padding: 16px;
+        width: 175px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        border:2px solid #fff;
+    }
+
+    #paint_index .bg_c button span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+
+     #paint_index .bg_c button span:after{
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+     }
+
+     #paint_index .bg_c button:hover span{
+
+        padding-right: 25px;
+     }
+
+  #paint_index .bg_c button:hover span:after{
+        opacity: 1;
+        right: 0;
+  }
 
 
 
@@ -1321,7 +1363,7 @@ header h1 img {
         height: 375px;
         min-height: 375px;
         float: none;
-        background: url(../img/top/bt_product_bg.jpg) center no-repeat;
+       /* background: url(../img/top/bt_product_bg.jpg) center no-repeat;*/
         background-size: cover
     }
 
@@ -1344,7 +1386,7 @@ header h1 img {
 
     #about_index {
         line-height: 1.75;
-        width: 50%;
+        width: 100%;
         height: 230px;
         min-height: 230px;
         float: none;
@@ -1379,6 +1421,8 @@ header h1 img {
         background-color: rgba(0, 94, 72, .95);
     }
 
+
+@media screen and (max-width:767px) {
 
     #paint_index {
         line-height: 1.75;
@@ -1416,6 +1460,49 @@ header h1 img {
         min-height: 230px;
         background-color: rgba(0, 94, 72, .95);
     }
+
+   #paint_index .bg_c button{
+        display: inline-block;
+        border-radius: 15px;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 12px;
+        padding: 16px;
+        width: 169px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        border:2px solid #fff;
+    }
+
+    #paint_index .bg_c button span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+
+     #paint_index .bg_c button span:after{
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+     }
+
+     #paint_index .bg_c button:hover span{
+
+        padding-right: 25px;
+     }
+
+  #paint_index .bg_c button:hover span:after{
+        opacity: 1;
+        right: 0;
+  }
+}
 
 
     #top_news .top_title h1 {
@@ -1647,8 +1734,8 @@ header h1 img {
         left: 25px;
         bottom: 30px;
         width: 50px;
-        height: 20px;
-        background: url(../img/common/img_l.png) center no-repeat;
+        height: 20px;/*
+        background: url(../img/common/img_l.png) center no-repeat;*/
         background-size: 35px 40px
     }
 
@@ -1658,7 +1745,7 @@ header h1 img {
         bottom: 30px;
         width: 50px;
         height: 20px;
-        background: url(../img/common/img_r.png) center no-repeat;
+/*        background: url(../img/common/img_r.png) center no-repeat;*/
         background-size: 35px 40px
     }
 }

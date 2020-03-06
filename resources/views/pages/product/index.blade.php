@@ -1,18 +1,16 @@
-
-@extends('layouts.about')
-
-@section('about')
-	<section id="about">
+@extends('layouts.product')
+@section('product')
+	<section id="service">
 		<div id="cover"></div>
 		<div class="pageTitle">
-			<div class="pho"></div>
+			<div class="pho"></div> 
 		</div>
-		<div class="whiteBox">
+		<!-- <div class="whiteBox"> -->
 			<ul class="itemList oneShow clearfix">
 				<li>
 					<a href="{{ route('product.decorative', app()->getLocale()) }}">
 						<h3 class="lato">
-							{{trans('about.outline')}}
+							{{trans('Decorative Paint')}}
 							<img src="{{ url('assets/img/onemake/product/deco2.png') }}" alt="">
 						</h3>
 						
@@ -23,8 +21,8 @@
 				<li>
 					<a href="{{ route('product.adhesive', app()->getLocale()) }}">
 						<h3 class="lato">
-							{{trans('about.philosophy')}}
-							<img src="{{ url('assets/img/onemake/product/adhesiv2.png') }}" alt="">
+							{{trans('Adhesive Paint')}}
+							<img src="{{ url('assets/img/onemake/product/adhesiv1.png') }}" alt="">
 						</h3>
 						<!-- <h4>会社概要</h4> -->
 					

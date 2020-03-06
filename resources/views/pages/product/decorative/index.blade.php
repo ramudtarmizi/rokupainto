@@ -1,8 +1,8 @@
 @extends('layouts.product')
 
 @section('product')
-    <section id="service" class="entry">
-        <div id="cover"></div> {{-- <div id="cover"> --}}
+	<section id="service" class="entry">
+		<div id="cover"></div> {{-- <div id="cover"> --}}
     <!--         @include('pages.about.breadcrumb')
                 <div class="comTtl">
                 <div class="pho" ></div> {{-- <div class="pho"> --}}
@@ -14,14 +14,14 @@
         </header>
     <body>
     <div class="badan"> 
-            <div class="list-produk">
-                <img src="{{ url ('assets/img/onemake/product/cat/e.png') }}" alt="paint5">
-                <h5>{{trans('product.deco1-header1')}}</h5>
+    		<div class="list-produk">
+            	<img src="{{ url ('assets/img/onemake/product/cat/e.png') }}" alt="paint5">
+ 	        	<h5>{{trans('product.deco1-header1')}}</h5>
                     <a class="tombol1 tombol-exterior" href="#">Exterior</a>
                             <a class="tombol1 tombol-interior" href="#">Interior</a>
                                 <a class="tombol tombol-detail"href="#popup1">{{trans('product.deco1-button1')}}</a>
-                <!-- super vinirock/interior--> 
-            </div>
+            	<!-- super vinirock/interior--> 
+        	</div>
             <div id="popup1" class="overlay">
                 <div class="popup">
                     <h2>{{trans('product.deco1-detail2')}}</h2>
@@ -766,11 +766,6 @@
     </div>
 </body>
 
- <!--  </div> {{-- <div class="wrap fadeInUp" id="a01"> --}} -->
   @include('pages.product.menu')
- <!--  </article> -->
- <!--  </div> {{-- <div class="whiteBox"> --}} --> -->
   </section> {{-- <section id="about" class="access"> --}}
-
-
 @endsection

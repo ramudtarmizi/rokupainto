@@ -1,4 +1,4 @@
-<section id="top_news" class="clearfix">
+<!-- <section id="top_news" class="clearfix">
 	<header>
 		<h1>News</h1>
 		<a href="news/index.html" class="more">MORE</a>
@@ -105,4 +105,4 @@
 			</a>
 		</article>
 	</div>
-</section>
+</section> -->

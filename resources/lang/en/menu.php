@@ -9,7 +9,7 @@ return [
 	'contact'		=> 'Contact',
 	'news'			=> 'News',
 	'blog'			=> 'Blog',
-	'sns'			=> 'Official SNS',
+	'sns'			=> 'Official SNS :',
 	'policy'			=> 'Privacy Policy',
 	'copyright'			=> 'Copyright @Rock Paint Indonesia, All Rights Reserved.',
 

@@ -10,7 +10,7 @@
     </div> {{-- <div class="comTtl"> --}}
     <div class="whiteBox">
     <h5 class="lato">
-              {{ucwords(trans('Our Official Distributor'))}}
+              {{ucwords(trans('Official Distributor'))}}
               <!-- <img src="{{url('assets/img/about/icon01.png')}}" alt=""> -->
     </h5>
     <div class="row">

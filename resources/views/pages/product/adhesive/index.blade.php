@@ -12,15 +12,15 @@
 	<article class="service_article">
 		<div class="entry_body">
 			<p>{{trans('product.adhesive-exp')}}</p>
-			</div> {{-- <div class="pho"> --}}
-							<img src="{{ url('assets/img/onemake/product/lamisi/lamisi_03.jpg') }}" alt="">
-						</div> {{-- <div class="pho"> --}}
+		</div> 
+
+				<img src="{{ url('assets/img/onemake/product/lamisi/lamisi_03.jpg') }}" alt="" width="400" height="350">
 					</a>
-							<img src="{{ url('assets/img/onemake/product/lamisi/lamisi_02.jpg') }}" alt="">
-						</div> {{-- <div class="pho"> --}}
+				<img src="{{ url('assets/img/onemake/product/lamisi/lamisi_02.jpg') }}" alt="" width="400" height="350">	
 					</a>
-							<img src="{{ url('assets/img/onemake/product/lamisi/lamisi_01.jpg') }}" alt="">
-		</div> {{-- <div class="entry_body"> --}}
+				<img src="{{ url('assets/img/onemake/product/lamisi/adhesiv2.jpg') }}" alt="" width="400" height="350">
+
+
 		@include('pages.product.menu')
 		</div> {{-- <div class="pho"> --}}
 	</article> {{-- <article class="service_article"> --}}

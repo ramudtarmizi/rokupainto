@@ -750,11 +750,11 @@ nav .exlink::before {
 }
 
 .sc #gheader>h1 a::after {
-    content: url(../img/common/rp2.jpg);
-    /*width: 108px;*/
-    /*height: 37px*/
-    width: 50vw;
-    height: 50vh;
+    content: url(../img/common/rp2.png);
+/*    width: 108px;
+    height: 37px*/
+    width: 15%;
+    height: 15%;
 }
 
 .sc #gheader>h1 img {
@@ -1046,13 +1046,13 @@ nav .exlink::before {
     }
 
     .sc #gheader>h1 a::after {
-        content: url(../img/common/rp2.jpg);
-        /*
-        width: 100px;
+      /*  content: url(../img/common/rp2.png);*/
+        
+  /*      width: 100px;
         height: 20px
         */
-	    width: 25%;
-	    height: 25%;
+	    width: 10%;
+	    height: auto;
     }
 
     .sc #gheader>h1 img {

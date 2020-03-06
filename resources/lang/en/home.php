@@ -16,5 +16,11 @@ return [
 	'sales-exp2'				=> 'Also if you need help to our customer service',
 	'sales-more'				=> 'MORE',
 
+	'paint'						=> 'Paint Simulation',
+	'paint-exp1'				=> 'Take the guesswork out of finding the right colour',
+	'paint-exp2'				=> 'with our paint colour visualizer',
+	'paint-more'				=> 'LAUNCH VISUALIZER',
+
+
 
 ];

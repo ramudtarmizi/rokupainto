@@ -42,14 +42,19 @@
  	<article id="paint_index">
 		<div class="bg_c">
 			<div class="tc">
-				<h1>{{ucwords(trans('Paint'))}}</h1>
+				<h1>{{ucwords(trans('home.paint'))}}</h1>
 				<p>
-					{{ucfirst(trans('For Further Information for our official distributor'))}}<br>
-					{{ucfirst(trans('Also if you need help to our customer service'))}}
+					{{ucfirst(trans('home.paint-exp1'))}}<br>
+					{{ucfirst(trans('home.paint-exp2'))}}
 				</p>
-				<a href="#" class="more">
-					{{strtoupper(trans('MORE'))}}
-				</a>
+				<br>
+				<a href="{{route('paint',['lang' => app('translator')->getLocale()])}}">
+					<button class="button">
+					<span>
+						{{strtoupper(trans('home.paint-more'))}}
+					</span>
+					</button>
+				</a> 
 			</div>
 		</div>
 	</article> 

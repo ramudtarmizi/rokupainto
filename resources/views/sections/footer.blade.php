@@ -19,7 +19,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="{{route('paint',['lang' => app('translator')->getLocale()])}}">
 						{{trans('menu.paint')}}
 					</a>
 				</li>
@@ -31,7 +31,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="{{route('csr',['lang' => app('translator')->getLocale()])}}">
 						{{trans('menu.csr')}}
 					</a>
 				</li>
@@ -75,20 +75,21 @@
 					</p>
 				</li>
 				<li>
-					<a href="https://twitter.com/" target="_blank">
-						<img alt="twitter" src="{{url('assets/img/common/sns_twitter.svg')}}" height="14">
+					<a href="https://www.facebook.com/Rock-Paint-Indonesia-101352098154028" target="_blank">
+						<img alt="facebook" src="{{url('assets/img/common/sns_facebook.svg')}}" height="50" width="20">
 					</a>
+				
 				</li>
 				<li>
-					<a href="https://facebook.com/" target="_blank">
-						<img alt="facebook" src="{{url('assets/img/common/sns_facebook.svg')}}" height="16">
+					<a href="https://instagram.com/rockpaintidn/" target="_blank">
+						<img alt="instagram" src="{{url('assets/img/common/sns_instagram.svg')}}" height="20">
 					</a>
 				</li>
-				<li>
+			<!-- 	<li>
 					<a href="https://youtube.com/" target="_blank">
 						<img alt="youtube" src="{{url('assets/img/common/sns_youtube.svg')}}" height="13">
 					</a>
-				</li>
+				</li> -->
 					</ul>
 		<!-- 	<p id="f_policy" class="sp">
 				<a href="#">

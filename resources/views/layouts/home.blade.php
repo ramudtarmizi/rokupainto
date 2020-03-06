@@ -22,6 +22,7 @@
 		@include('sections.footer')
 		{{-- libs js --}}
 		<script src="{{ mix('/assets/js/mix-home.min.js') }}"></script>
+
 		<script type="text/javascript">
 			// VANTA.NET({
 			// 		el: "#top_content",

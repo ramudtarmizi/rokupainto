@@ -10,7 +10,7 @@ return [
 
 	//adhesive
 	'adhesive-header'			=> 'Decorative Paint',
-	'adhesive-exp'				=> 'PT.Rock Paint Indonesia adalah perusahaan manufaktur yang 								memproduksi berbagai jenis perekat proses dry laminasi. 								Produk kami dikembangkan dengan‘’kualitas jepang”yang 									disesuaikan dengan kebutuhan pelanggan. roduk seri “AD 									ROCK” dan “ROCKBOND J” mempunyai kualitas tinggi dan mampu								memberikan performa bagus terhadap proses produksi 										pelanggan dan dapat diaplikasikan di berbagai macam jenis 								kemasan mulai dari makanan retort,makanan beku,makanan 									kering ,minyak nabati,kebutuhan rumah tangga dan backsheet							 	baterai tenaga surya ,pembungkus baterai lithium untuk									kebutuhan industri',
+	'adhesive-exp'				=> 'PT.Rock Paint Indonesia adalah perusahaan manufaktur yang 								memproduksi berbagai jenis perekat proses dry laminasi. 								Produk kami dikembangkan dengan‘’kualitas jepang”yang 									disesuaikan dengan kebutuhan pelanggan. roduk seri “AD 									ROCK” dan “ROCKBOND J” mempunyai kualitas tinggi dan mampu								memberikan performa bagus terhadap proses produksi 										pelanggan dan dapat diaplikasikan di berbagai macam jenis 								kemasan mulai dari makanan retort,makanan beku,makanan 									kering ,minyak nabati,kebutuhan rumah tangga dan backsheet							 	baterai tenaga surya , untuk									kebutuhan industri',
 
 	'decorative-header1'		=> 'OUR PRODUCTS',
 

@@ -45,7 +45,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="{{route('csr',['lang' => app('translator')->getLocale()])}}">
 						{{trans('menu.csr')}}
 					</a>
 				</li>
@@ -85,20 +85,21 @@
 					<p>{{trans('menu.sns')}}</p>
 				</li>
 				<li>
-					<a href="https://twitter.com/" target="_blank">
-						<img height="14" src="{{url('assets/img/common/sns_twitter.svg')}}" alt="twitter">
+					<a href="https://www.facebook.com/Rock-Paint-Indonesia-101352098154028" target="_blank">
+						<img alt="facebook" src="{{url('assets/img/common/sns_facebook.svg')}}" height="50" width="20">
 					</a>
+				
 				</li>
 				<li>
-					<a href="https://facebook.com/" target="_blank">
-						<img height="16" src="{{url('assets/img/common/sns_facebook.svg')}}" alt="facebook">
+					<a href="https://instagram.com/rockpaintidn/" target="_blank">
+						<img alt="instagram" src="{{url('assets/img/common/sns_instagram.svg')}}" height="20">
 					</a>
 				</li>
-				<li>
+				<!-- <li>
 					<a href="https://youtube.com/" target="_blank">
 						<img height="13" src="{{url('assets/img/common/sns_youtube.svg')}}" alt="youtube">
 					</a>
-				</li>
+				</li> -->
 			</ul>
 			<!-- <ul id="h_lang" class="h_lang_ clearfix">
 				<li class="jp">
@@ -125,11 +126,11 @@
 					</a>
 				</li>
 			</ul> -->
-			<p id="h_policy" class="pc">
+			<!-- <p id="h_policy" class="pc">
 				<a href="#">
 					{{trans('menu.policy')}}
 				</a>
-			</p>
+			</p> -->
 		</div>
 	</div>
 </nav>

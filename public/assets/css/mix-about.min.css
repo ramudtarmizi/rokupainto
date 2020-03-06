@@ -750,11 +750,11 @@ nav .exlink::before {
 }
 
 .sc #gheader>h1 a::after {
-    content: url(../img/common/rp2.jpg);
-    /*width: 108px;*/
-    /*height: 37px*/
-    width: 50vw;
-    height: 50vh;
+    content: url(../img/common/rp2.png);
+/*    width: 108px;
+    height: 37px*/
+    width: 15%;
+    height: 15%;
 }
 
 .sc #gheader>h1 img {
@@ -1046,13 +1046,13 @@ nav .exlink::before {
     }
 
     .sc #gheader>h1 a::after {
-        content: url(../img/common/rp2.jpg);
-        /*
-        width: 100px;
+      /*  content: url(../img/common/rp2.png);*/
+        
+  /*      width: 100px;
         height: 20px
         */
-	    width: 25%;
-	    height: 25%;
+	    width: 10%;
+	    height: auto;
     }
 
     .sc #gheader>h1 img {
@@ -2081,7 +2081,7 @@ h6{
 .itemList h3 {
     font-size: 30px;
     line-height: 42px;
-    color: #92b122
+    color: #005E48
 }
 
 .itemList h3 img {
@@ -2671,8 +2671,91 @@ h6{
 }
 
 
-/*////////////////////////*/
+/*//////////-CSR-//////////////*/
 
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.kolom {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+
+/* Fake image */
+/*.fakeimg {
+ 
+  width: 100%;
+  padding: 20px;
+}*/
+
+/* Add a card effect for articles */
+.cardo {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+.cardo h3{
+   text-align: center;
+   font-size: 30px;
+   color: #005E48;
+}
+
+.cardo h4{
+
+   font-size: 20px;
+   line-height: 1em;
+   color: #005E48;
+   margin-top: 50px;
+   font-style: italic;
+}
+
+.cardo p{
+
+   font-size: 15px;
+   line-height: 1.5em;
+   color: #000;
+   margin-top: 10px;
+
+}
+
+.baris{
+    width: 100%;
+    position: center;
+}
+
+/* Clear floats after the columns */
+.baris:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Footer */
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .kolom {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+/*//////////////////////////////////*/
 #about.access .comTtl .pho {
     background-image: url(../img/about/RPI.jpg)
 }

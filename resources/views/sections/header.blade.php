@@ -1,6 +1,7 @@
-<header id="gheader" class="">
-	<h1>
-		<a href="#">
+<header id="gheader" class="sc">
+	<h1> 
+		<a href="{{route('home',['lang' => app('translator')->getLocale()])
+					}}">
 			<img src="{{url('assets/img/common/logo.png')}}" width="70" height="59" 
 				alt="">
 		</a>

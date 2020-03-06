@@ -1,5 +1,3 @@
-
-
 function init(){
 
 	if($('.itemList').length){
