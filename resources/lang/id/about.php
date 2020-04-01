@@ -1,56 +1,104 @@
 <?php
 return [
-	'title' 			=> 'Tentang Perusahaan',
-	'explain' 			=> 'PT ROCK PAINT INDONESIA adalah Perusahaan manufaktur cat dan perekat/lem yang berdomisili di Kawasan Industri KIIC Kabupaten Karawang Republik Indonesia. Sejak awal beroperasi,ROCK PAINT GROUP memiliki moto “Menawarkan harga yang pantas untuk cat yang berkualitas tinggi” , melakukan investasi secara positif di bidang peralatan, melakukan efisiensi serta otomatisasi. Dalam beberapa waktu terakhir, dengan memanfaatkan kemampuan teknik dan ‘know-how’ yang telah dipupuk selama ini, dan dengan pengontrolan proses dan kualitas yang ketat, kami telah mengembangkan sistem produksi agar dapat menyajikan produk berkualitas tinggi secara stabil. ',
-	'button-more'		=> 'Selanjutnya',
-	/** --- menu 1 (company) --- **/
-	'menu-1-title' 		=> 'Perusahaan',
-	'menu-1-explain' 	=> 'Informasi yang dirangkum',
-	'company-txt'		=> 'Nama Perusahaan',
-	'company-val'		=> 'PT. ROCK PAINT INDONESIA',
-	'establish-txt'		=> 'Didirikan',
-	'establish-val'		=> 'May 2011',
-	'capital-txt'		=> 'Modal',
-	'capital-val'		=> 'USD 8,760,000 ',
-	'employee-txt'		=> 'Jumlah tenaga kerja',
-	'employee-val'		=> '222 (total kelompok per September, 2019)',
-	'sharehold-txt'		=> 'Pemegang Saham Utama',
-	'sharehold-val'		=> 'Rock Paint Co.,LTD 99%|Rock Tranding Co.,LTD,Japan 1%',
-	'manteam-txt'		=> 'Managemen Tim',
-	'manteam-val1'		=> 'Direktur Utama ： Mr. Yoshihide Tsunekawa',
-	'bussiness-txt'		=> 'Area Bisnis',
-	'bussiness-val1'	=> 'Adhesives for Lamination.',
-	'bussiness-val2'	=> 'Decorative Paint.',
-	'location-txt'		=> 'Office Location',
-	'location-val1'		=> 'Osaka Headquarters Postal Code 555-0033,Osaka Nishiyodogawa Himejima 3 chome No. 47 Telp: 06-6473-1551 URL : www.rockpaint.co.jp',
-	'location-val1'		=> 'Tokyo Head Office Postal Code 136-0076, Koto-ku,Tokyo Minamisuna 2-chome, No. 37 No. 2 Telp: 03-3640-6000 URL : www.rockpaint.co.jp',
-	'group-txt'			=> 'Grup Perusahaan',
-	'group-val1'		=> 'PT Bruggen Batavia Indonesia',
-	'group-val2'		=> 'PT Indo Momozen',
-	/** --- menu 2 (member) --- **/
-	'menu-2-title' 		=> 'Pemimpin',
-	'menu-2-explain' 	=> 'Direktur Utama',
-	'member-1-txt'		=> 'Direktur Utama PT Rock Paint Co.,Ltd.',
-	'member-1-val'		=> 'Togo Utsumi',
-	'message-1-val'		=> 'Terimakasih kami ucapkan atas dukungan terhadap produk Rock Paint selama ini.
+	'menu1'						=> 'Home',
+	'menu2'						=> 'Tentang',
+	'outline'					=> 'Tentang Perusahaan ',
+	'outline2'					=> 'Informasi yang dirangkum tentang',
+	'outline3'					=> 'ROCK PAINT INDONESIA',
+	'outline-more'				=> 'MORE',	
+	'philosophy'				=> 'Filosofi Perusahaan',
+	'philosophy2'				=> 'Filosofi kami',
+	'philosophy-more'			=> 'MORE',
+	'access'					=> 'Akses & Peta',
+	'access2'					=> 'Peta dan panduan Transportasi',
+	'access3'					=> 'untuk sampai ke kantor kami',
+	'access-more'				=> 'MORE',
 
-	Semenjak perusahaan ini berdiri, “Cat berkualitas tinggi dengan harga yang sesuai” menjadi motto perusahaan kami. Perkembangan teknologi yang tak ada hentinya dan kekuatan bisnis yang stabil dengan berdasarkan sistem bebas hutang. Latar belakang dari dasar tersebut adalah berdasarkan ide manajemen “Hal yang bisa dikerjakan dengan mesin, biarlah dengan mesin, tugas karyawan memperlihatkan kemampuan dan kreasi yang dimilikinya”. Selain itu efisiensi tenaga kerja dan rasionalisasi mengoptimalkan tujuan. Karena itu kami terus berinisiatif melakukan perubahan sistem seperti pembelian peralatan terbaru, peningkatan produksi, penggunaan komputer di kalangan kantor, dan akses online. Karena semangat menantang seperti ini, kami akan memperbanyak informasi mengenai pasar, selalu terus mengembangkan produk masing-masing bisnis “Cat mobil”, “Cat dekoratif”, “Cat industri”, “Cat furniture”, dan “Perekat untuk pabrik” sesuai kebutuhan pasar.
+	'company-name'				=> 'Nama Perusahaan',
+	'name-content'				=> 'PT. ROCK PAINT INDONESIA ',
 
-	Dari tahun ke tahun masalah lingkungan global menjadi semakin penting. Kai ini pun perusahaan menargetkan “Pembuatan cat yang ramah terhadap lingkungan dan manusia”, lebih merealisasikan kedua bidang hard maupun soft, dan berperan sebagai anggota dari industri cat.
+	'company-est'				=> 'Diresmikan',
+	'est-content'				=> 'May 2011',
 
-		Kami mengharapkan dukungan dan kerja sama dari Anda.
-		Terimakasih.',
-	'menu-3-title' 		=> 'Access',
-	'menu-3-explain' 	=> 'Panduan transportasi',
-	'office-txt'		=> 'Kantor pusat',
-	'address-val1'		=> 'Alamat,',
-	'address-val2'		=> 'Indonesia, Karawang Regency, Desa Sirnabaya ,',
-	'address-val3'		=> 'Jalan Harapan IV Lot KK-9b, Kawasan Industri Kiic',
-	'phone-val'			=> 'Phone:02189114321',
-	'trans-title'		=> 'transportasi',
-	'trans-val1'		=> '10 menit berjalan kaki dari Busway Shelter 							Dukuh Atas 1 (Jend. Sudirman Line)',
-	'trans-val2'		=> '10 menit berjalan kaki dari Stasiun MRT 							Setiabudi Astra (Jend. Sudirman Line)',
-	'trans-val3'		=> '10 menit berjalan kaki dari Stasiun Kereta 							Bandara BNI City (Jalur Bandara Soekarno-Hatta)'
+	'company-cap'				=> 'Capital',
+	'cap-content'				=> 'USD 8,760,000',
+
+	'company-share'				=> 'Pemegang saham',
+	'share-content'				=> 'Rock Paint Co., LTD, Japan　99% | Rock Trading Co., LTD, 								       Japan 1%',
+
+	'company-leader'			=> 'Presiden Direktur',
+	'leader-content'			=> 'Mr. Yuji Ogino',
+
+	'company-land'				=> 'Luas Area',
+	'land-content'				=> '50.000 m2 (KIIC Industrial Area)',
+
+	'office-loc'				=> 'Lokasi Kantor',
+	'office-main'				=> 'Kantor Utama Indonesia',
+	'office-main-code'			=> 'Kode Pos 41361',
+	'office-main-add1'			=> 'Jln. Harapan IV Lot KK-9b, Kawasan Industri KIIC,',
+	'office-main-add2'			=> 'Desa Sirnabaya, Kec. Telukjambe Timur, Karawang,',
+	'office-main-add3'			=> 'Jawa Barat, Indonesia',
+
+	'office-rep'				=> 'Kantor Perwakilan',
+	'office-rep-code'			=> 'Kode Pos 10350',
+	'office-rep-add1'			=> 'Wisma Nusantara, Lt.6,',
+	'office-rep-add2'			=> 'Jalan MH Thamrin Kav No.59, RT.9/RW.5, Gondangdia, Menteng,',
+	'office-rep-add3'			=> 'Jakarta Pusat, Indonesia',
+
+	'office-jpn'				=> 'Kantor Pusat Tokyo',
+	'office-jpn-code'			=> 'Kode Pos 136-0076',
+	'office-jpn-add1'			=> '2,37 Banchi,2 Chome , Minamisuna ',
+	'office-jpn-add2'			=> 'Koto-ku, Tokyo',
+
+
+	'company-philo'				=> 'Filosofi Kami',
+
+	'philo-header1'				=> 'VISI',
+	'philo-header2'				=> 'MISI',
+	'philo-header3'				=> 'PRINSIP',
+
+	'header1-content'			=> 'Sebagai salah satu bagian dari Rock Paint Group yang berpusat 								di Asia, kami berekspansi ke skala global melalui produksi 									dan pemasaran produk untuk meningkatkan nilai perusahaan 									dan memberikan kontribusi kepada masyarakat di 												Indonesia dan Asia.',
+
+	'header2-content1'			=> '1. Menghasilkan produk yang dipercaya oleh pelanggan.',
+	'header2-content2'			=> '2. Menghasilkan keuntungan yang wajar untuk mewujudkan 										kemakmuran dan kesejahteraan karyawan yang berujung pada 									kepuasan yang lebih dari pelanggan.',
+	'header2-content3'			=> '3. Berkontribusi pada stakeholder.',
+
+	'header3-content1'			=> '1. Menjunjung tinggi organisasi, berkomitmen dalam bekerja 									dengan kebanggan dan kesadaran sebagai karyawan ROCK PAINT 									Group.',
+	'header3-content2'			=> '2. Waspada terhadap risiko dan mengutamakan keselamatan kerja.'									,
+	'header3-content3'			=> '3. Menciptakan dan mengatur lingkungan kerja yang aman dan 									bersih.',
+	'header3-content4'			=> '4. Aktif berinovasi dalam bekerja untuk perbaikan 											berkelanjutan dalam organisasi demi pertumbuhan pribadi 									dan perusahaan.',
+	'header3-content5'			=> '5. Berkomunikasi secara vertical, horizontal dan diagonal.',
+	'header3-content6'			=> '6. Menghormati dan menghargai kebudayaan dan kebiasaan di 									negara asing serta melaksanakan kepatuhan sosial 											berdasarkan akal sehat.',
+
+
+	'main-office-01'			=> 'KANTOR UTAMA INDONESIA',
+	'main-office-02'			=> 'KANTOR PERWAKILAN',
+
+	'access-header'				=> 'Kawasan Industri KIIC, Karawang Jawa Barat, Indonesia ',
+
+
+	'main-office'				=> 'Karawang',
+	'main-content1'				=> 'Kode Pos 41361',
+	'main-content2'				=> 'Jln. Harapan IV Lot KK-9b, Kawasan Industri KIIC,Karawang,',
+	'main-content3'				=> 'Desa Sirnabaya, Kec. Telukjambe Timur, Karawang,',
+	'main-content4'				=> 'Jawa Barat, Indonesia',
+	'main-content5'				=> 'Telp: +62 (021) 89114321',
+	'main-content6'				=> 'Fax: +62 (0267) 845686',
+
+	'access-header2'			=> 'Wisma Nusantara Lt.6, Jakarta Pusat',
+
+	'rep-content2'				=> 'Kode Pos 10350',
+	'rep-content3'				=> 'Wisma Nusantara 6th floor',
+	'rep-content4'				=> 'Jalan MH Thamrin Kav No.59, RT.9/RW.5, Gondangdia, Menteng',
+	'rep-content5'				=> 'Jakarta Pusat, Indonesia',
+	'rep-content6'				=> 'Telp: +62-21- 3983-5810',
+	'rep-content1'				=> 'Jakarta Pusat',
+	
+
+
+
+
+
+
 	
 ];
-	

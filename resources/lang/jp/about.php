@@ -1,63 +1,105 @@
 <?php
 return [
-	'title' 			=> 'Tentang Perusahaan',
-	'explain' 			=> 'PT. ROCK PAINT INDONESIAは、インドネシア共和国カラワン県KIIC工業団地内に位置し、塗料接着剤の製造販売を事業目的
-としております。ロックペイントグループでは、創業以来“高品質の塗料を適正価格で提供する”をモットーとして、積極的に設備投資を行い、省力化並びに自動化を実践してきました。近年では、長年培ってきた生産技術力とノウハウを活かし、厳密な工程管理及び
-品質管理をもとに安定した高品質の製品を提供する生産体制を構築しています。 .',
-	'button-more'		=> '次へ',
-	/** --- menu 1 (company) --- **/
-	'menu-1-title' 		=> '会社',
-	'menu-1-explain' 	=> 'Informasi yang dirangkum',
-	'company-txt'		=> 'Nama Perusahaan',
-	'company-val'		=> 'PT. ROCK PAINT INDONESIA',
-	'establish-txt'		=> 'Didirikan',
-	'establish-val'		=> 'May 2011',
-	'capital-txt'		=> 'Modal',
-	'capital-val'		=> 'USD 8,760,000 ',
-	'employee-txt'		=> 'Jumlah tenaga kerja',
-	'employee-val'		=> '222 (total kelompok per September, 2019)',
-	'sharehold-txt'		=> 'Pemegang Saham Utama',
-	'sharehold-val'		=> 'Rock Paint Co.,LTD 99%|Rock Tranding Co.,LTD,Japan 1%',
-	'manteam-txt'		=> 'Managemen Tim',
-	'manteam-val1'		=> 'Direktur Utama ： Mr. Yoshihide Tsunekawa',
-	'bussiness-txt'		=> 'Area Bisnis',
-	'bussiness-val1'	=> 'Adhesives for Lamination.',
-	'bussiness-val2'	=> 'Decorative Paint.',
-	'location-txt'		=> 'Office Location',
-	'location-val1'		=> 'Osaka Headquarters Postal Code 555-0033,Osaka Nishiyodogawa Himejima 3 chome No. 47 Telp: 06-6473-1551 URL : www.rockpaint.co.jp',
-	'location-val1'		=> 'Tokyo Head Office Postal Code 136-0076, Koto-ku,Tokyo Minamisuna 2-chome, No. 37 No. 2 Telp: 03-3640-6000 URL : www.rockpaint.co.jp',
-	'group-txt'			=> 'Grup Perusahaan',
-	'group-val1'		=> 'PT Bruggen Batavia Indonesia',
-	'group-val2'		=> 'PT Indo Momozen',
-	/** --- menu 2 (member) --- **/
-	'menu-2-title' 		=> 'Pemimpin',
-	'menu-2-explain' 	=> 'Direktur Utama',
-	'member-1-txt'		=> 'Direktur Utama PT Rock Paint Co.,Ltd.',
-	'member-1-val'		=> 'Togo Utsumi',
-	'message-1-val'		=> '平素はロックペイント製品をご愛顧賜り、厚くお礼申し上げます。
+	'menu1'						=> 'Home',
+	'menu2'						=> 'about',
+	'outline'					=> 'Company Outline',
+	'outline2'					=> '',
+	'outline3'					=> 'Rock Paint Indonesiaに関する一般情報',
+	'outline-more'				=> 'MORE',	
+	'philosophy'				=> 'Company Philosophy',
+	'philosophy2'				=> '会社の哲学',
+	'philosophy-more'			=> 'MORE',
+	'access'					=> 'Access & Maps',
+	'access2'					=> '地図と交通ガイド',
+	'access3'					=> 'オフィスに行く',
+	'access-more'				=> 'MORE',
 
-当社は、創業以来「高品質の塗料を適正価格で提供する」ことを基本に、たゆみない技術開発と着実な営業努力を積み重ね、常に無借金体制を基本とした堅実で安定した経営を行ってきました。
-そうした経営基盤の背景には「機械にできることは機械に任せ、社員には人間本来の能力・創造力を大いに発揮してもらう」との経営理念に基づいた、省力化・合理化さらには、効率化の徹底した追求があります。
+	'company-name'				=> '会社名',
+	'name-content'				=> 'PT. ROCK PAINT INDONESIA ',
 
-そのため、最新設備の導入や生産性を高めるシステム化を実施し、事務関係におけるコンピュータ化、オンライン化も率先して進めてきました。こうしたチャレンジ精神のもとに、市場における情報力を高め、「車両用塗料」
-「建築用塗料」「工業用塗料」「家庭用塗料」の４つの事業分野ごとに常にマーケットニーズに合致した製品開発
-を推し進めています。 地球環境問題は、年々その重要性を増しておりますが、当社は今後も“人と環境にやさしい
-塗料づくり”を目指して、ハード、ソフトの両面から一層の充実を図り、色彩提供産業の一員としての役割を果たして
-いきたいと考えております。
+	'company-est'				=> 'に設立されました',
+	'est-content'				=> '2011年5月',
 
-今後とも引き続き変わらぬご支援を賜りますよう、
-よろしくお願い申し上げます。 ',
-	'menu-3-title' 		=> 'Access',
-	'menu-3-explain' 	=> 'Panduan transportasi',
-	'office-txt'		=> 'Kantor pusat',
-	'address-val1'		=> 'Alamat,',
-	'address-val2'		=> 'Indonesia, Karawang Regency, Desa Sirnabaya ,',
-	'address-val3'		=> 'Jalan Harapan IV Lot KK-9b, Kawasan Industri Kiic',
-	'phone-val'			=> 'Phone:02189114321',
-	'trans-title'		=> 'transportasi',
-	'trans-val1'		=> '10 menit berjalan kaki dari Busway Shelter 							Dukuh Atas 1 (Jend. Sudirman Line)',
-	'trans-val2'		=> '10 menit berjalan kaki dari Stasiun MRT 							Setiabudi Astra (Jend. Sudirman Line)',
-	'trans-val3'		=> '10 menit berjalan kaki dari Stasiun Kereta 							Bandara BNI City (Jalur Bandara Soekarno-Hatta)'
+	'company-cap'				=> '資本',
+	'cap-content'				=> 'USD 8,760,000',
+
+	'company-share'				=> '株主',
+	'share-content'				=> 'Rock Paint Co., LTD, Japan　99% | Rock Trading Co., LTD, 								       Japan 1%',
+
+	'company-leader'			=> '大統領',
+	'leader-content'			=> 'Mr. Yuji Ogino',
+
+	'company-land'				=> '土地面積',
+	'land-content'				=> '50.000 m2 (KIIC Karawang工業地帯)',
+
+	'office-loc'				=> 'オフィスの場所',
+
+	'office-main'				=> '本社インドネシア',
+	'office-main-code'			=> '郵便番号41361',
+	'office-main-add1'			=> 'Jln. Harapan IV Lot KK-9b, Kawasan Industri KIIC,',
+	'office-main-add2'			=> 'Desa Sirnabaya, Kec. Telukjambe Timur, Karawang,',
+	'office-main-add3'			=> 'Jawa Barat, Indonesia',
+
+	'office-rep'				=> '駐在員事務所',
+	'office-rep-code'			=> '郵便番号10350',
+	'office-rep-add1'			=> 'Wisma Nusantara 6th floor,',
+	'office-rep-add2'			=> 'Jalan MH Thamrin Kav No.59, RT.9/RW.5, Gondangdia, Menteng,',
+	'office-rep-add3'			=> 'Jakarta Pusat, Indonesia',
+
+	'office-jpn'				=> '東京本社',
+	'office-jpn-code'			=> '郵便番号136-0076',
+	'office-jpn-add1'			=> '東京都江東区南砂2丁目37番2号 ',
+	'office-jpn-add2'			=> 'Koto-ku, Tokyo',
+	
+
+	'company-philo'				=> 'Company Philosophy',
+
+	'philo-header1'				=> 'ビジョン',
+	'philo-header2'				=> '使命',
+	'philo-header3'				=> '原理',
+
+	'header1-content'			=> 'アジアのロックペイントグループの1つとして、製品とマーケティングを通じてグローバルスケールに拡大し、会社の価値を高め、インドネシアとアジアの人々にサービスを提供しています。',
+
+	'header2-content1'			=> '1. 顧客から信頼される製品の生産。',
+	'header2-content2'			=> '2. ROCK PAINT INDONESIAは、繁栄と従業員の幸福のために合理的な利益を生み出し、顧客満足度を高めます。',
+	'header2-content3'			=> '3. ステークホルダーへの貢献。',
+
+	'header3-content1'			=> '1. 組織をサポートし、Rock Paint Groupの従業員として働くことに誇りを感じてください。',
+	'header3-content2'			=> '2. 危険を予測し、安全を第一に考えてください。',
+	'header3-content3'			=> '3. 職場環境を安全かつ清潔にする。',
+	'header3-content4'			=> '4. 個人の成長のための組織と会社を改善するために、職場で積極的に革新します。',
+	'header3-content5'			=> '5. 垂直、水平、斜めに通信します。',
+	'header3-content6'			=> '6. 外国の文化や習慣を尊重し、尊重し、常識に基づいて社会的コンプライアンスを実施します。',
+
+
+	'main-office-01'			=> 'インドネシア本部',
+	'main-office-02'			=> '駐在員事務所',
+
+	'access-header'				=> 'インドネシアKIIC工業地帯、カラワンジャワバラット ',
+
+
+	'main-office'				=> 'Karawang',
+	'main-content1'				=> '郵便番号41361',
+	'main-content2'				=> 'Jln. Harapan IV Lot KK-9b, Kawasan Industri KIIC,Karawang,',
+	'main-content3'				=> 'Desa Sirnabaya, Kec. Telukjambe Timur, Karawang,',
+	'main-content4'				=> 'Jawa Barat, Indonesia',
+	'main-content5'				=> 'Telp: +62 (021) 89114321',
+	'main-content6'				=> 'Fax: +62 (0267) 845686',
+
+	'access-header2'			=> '中央ジャカルタ、ウィスマヌサンタラ6階',
+
+	'rep-content2'				=> '郵便番号 10350',
+	'rep-content3'				=> 'Wisma Nusantara 6th floor',
+	'rep-content4'				=> 'Jalan MH Thamrin Kav No.59, RT.9/RW.5, Gondangdia, Menteng',
+	'rep-content5'				=> 'Jakarta Pusat, Indonesia',
+	'rep-content6'				=> 'Telp: +62-21- 3983-5810',
+	'rep-content1'				=> 'Jakarta Pusat',
+	
+
+
+
+
+
+
 	
 ];
-	

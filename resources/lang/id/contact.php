@@ -1,7 +1,9 @@
 <?php
 return [
-	'title' 	=> 'kontak',
-	'shortcut' 	=> 'Kontak Kami',
-	'explain' 	=> 'Jika ada pertanyaan、silahkan jangan ragu menghubungi kami.',
-	'form' 		=> 'Formulir Pertanyaan'
+	'shortcut-header'				=> 'Contact',
+	'shortcut-form'					=> 'Contact Form',
+
+	'shortcut-content1'				=> 'Jika ada pertanyaan dan permintaan,',
+	'shortcut-content2'				=> 'Silakan isi dan kirim formulir di bawah ini.',
+
 ];

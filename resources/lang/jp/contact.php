@@ -1,7 +1,9 @@
 <?php
 return [
-	'title' 	=> 'Contact',
-	'shortcut' 	=> '連絡先',
-	'explain' 	=> 'ご不明な点がございましたら、お気軽にお問い合わせください。',
-	'form' 		=> 'お問い合わせフォーム'
+	'shortcut-header'				=> 'Contact',
+	'shortcut-form'					=> 'Contact Form',
+
+	'shortcut-content1'				=> 'お問い合わせやリクエストについては、,',
+	'shortcut-content2'				=> '以下のフォームに記入して送信してください。',
+
 ];
