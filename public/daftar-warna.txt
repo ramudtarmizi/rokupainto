@@ -1,0 +1,149 @@
+DAFTAR WARNA
+1.	AliceBlue
+2.	AntiqueWhite
+3.	Aqua
+4.	Aquamarine
+5.	Azure
+6.	Beige
+7.	Bisque
+8.	Black
+9.	BlanchedAlmond
+10.	Blue
+11.	BlueViolet
+12.	Brown
+13.	BurlyWood
+14.	CadetBlue
+15.	Chartreuse
+16.	Chocolate
+17.	Coral
+18.	CornflowerBlue
+19.	Cornsilk
+20.	Crimson
+21.	Cyan
+22.	DarkBlue
+23.	DarkCyan
+24.	DarkGoldenRod
+25.	Dark Gray
+26.	Dark Grey
+27.	Dark Green
+28.	Dark Khaki
+29.	Dark Magenta
+30.	Dark Olive Green
+31.	Dark Orange
+32.	Dark Orchid
+33.	Dark Red
+34.	Dark Salmon
+35.	Dark Sea Green
+36.	Dark Slat Blue
+37.	Dark Slate Gray
+38.	Dark Slate Grey
+39.	Dark Turquoise
+40.	Dark Violet
+41.	Deep Pink
+42.	Deep Sky Blue
+43.	Dim Gray
+44.	Dim Grey
+45.	Dodger Blue
+46.	Fire Brick
+47.	Floral White
+48.	Forest Green
+49.	Fuchsia
+50.	Gainsboro
+51.	Ghost White
+52.	Gold 
+53.	Golden Rod
+54.	Gray
+55.	Grey
+56.	Green 
+57.	Green Yellow
+58.	Honey Dew
+59.	Hot Pink
+60.	Indian Red
+61.	Indigo
+62.	Invory
+63.	Khaki
+64.	Lavender
+65.	Lavender Blush
+66.	Lawn Green
+67.	Lamon Chiffon 
+68.	Light Blue
+69.	Light Coral
+70.	Light Cyan
+71.	Light Golden Rod Yellow
+72.	Light Gray
+73.	Light Grey
+74.	Light Green
+75.	Light Pink
+76.	Light Salmon
+77.	Light Sea Green 
+78.	Light Sky Blue
+79.	Light Slate Gray
+80.	Light Slate Grey
+81.	Light Steel Blue
+82.	Light Yellow
+83.	Lime
+84.	Lime Green
+85.	Linen
+86.	Magenta
+87.	Maroon
+88.	Madium Aqua Marine
+89.	Madium Blue
+90.	Madium Orchid
+91.	Madium Purple
+92.	Madium Sea Green
+93.	Madium Slate Blue
+94.	Madium Spring Green
+95.	Madium Turquoise
+96.	Madium Violet Red
+97.	Midnight Blue
+98.	Mint Cream 
+99.	Misty Rose
+100.	Moccasin
+101.	Navajo White
+102.	Navy
+103.	Old Lace
+104.	Olive
+105.	Olive Drab
+106.	Orange
+107.	Orange Red
+108.	Orchid
+109.	Pale Golden Rod
+110.	PaLe Green
+111.	Pale Turquoise
+112.	Pale Violet Red
+113.	Papaya Whip
+114.	Peach Puff
+115.	Peru
+116.	Pink 
+117.	Plum
+118.	Power Blue 
+119.	Purple
+120.	Rebecca Purple
+121.	Red
+122.	Rosy Brown
+123.	Royal Blue
+124.	Saddle Brown 
+125.	Salmon
+126.	Sandy Brown
+127.	Sea Green
+128.	Sea Sell
+129.	Sienna
+130.	Silver
+131.	Sky Blue 
+132.	Slate Blue
+133.	Slate Gray 
+134.	Slate Grey
+135.	Snow
+136.	Spring Green
+137.	Steel Blue
+138.	Tan
+139.	Teal
+140.	Thistle
+141.	Tomato
+142.	Turquise
+143.	Violet
+144.	Wheat
+145.	White
+146.	White Smoke
+147.	Yellow 
+148.	Yellow Green

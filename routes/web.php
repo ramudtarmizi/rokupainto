@@ -1,122 +1,151 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
-| Application Routes
+| Web Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register all of the routes for an application.
-| It is a breeze. Simply tell Lumen the URIs it should respond to
-| and give it the Closure to call when that URI is requested.
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
 |
 */
 
-// $router->get('/', function () use ($router) {
-//     return $router->app->version();
+// Route::get('/', function () {
+//     return view('welcome');
 // });
 
-// $router->get('/key', function() {
-//     return \Illuminate\Support\Str::random(32);
-// });
+// Auth::routes();
 
-$router->get('/', [
-	'as' => 'index', function () use ($router) {
-		return view('pages.home.index')
-			->with('csrf_token', app('request')->session()->get('_token'));
-}]);
+// Route::get('/home', 'HomeController@index')->name('home');
 
-$router->group(['prefix' => '{lang}'], function ($lang) use ($router) {
+/** --- EN --- **/
+Route::group(['prefix' => '{lang}'], function ($lang) {
 
-	$router->get('/', [
-		'as' => 'index', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.home.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.home.index');
+    })->name('index');
 
-	$router->get('/home', [
-		'as' => 'home', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.home.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/home', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.home.index');
+    })->name('home');
 
-	$router->get('/about', [
-		'as' => 'about', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.about.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/about', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.about.index');
+    })->name('about');
 
-	$router->get('/about/company', [
-		'as' => 'about.company', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.about.company.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/about/company', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.about.company.index');
+    })->name('about.company');
 
-	$router->get('/about/philosophy', [
-		'as' => 'about.philosophy', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.about.philosophy.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/about/member', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.about.member.index');
+    })->name('about.member');
 
-	$router->get('/about/access', [
-		'as' => 'about.access', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.about.access.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/about/access', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.about.access.index');
+    })->name('about.access');
 
 
-	$router->get('/product', [
-		'as' => 'product', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.product.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/product', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.product.index');
+    })->name('product');
 
-	$router->get('/product/adhesive', [
-		'as' => 'product.adhesive', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.product.adhesive.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
 
-	$router->get('/product/decorative', [
-		'as' => 'product.decorative', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.product.decorative.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/product/consulting', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.product.consulting.index');
+    })->name('product.consulting');
 
-	$router->get('/paint', [
-		'as' => 'paint', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.paint.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/product/integrator', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.product.integrator.index');
+    })->name('product.integrator');
 
-	$router->get('/sales', [
-		'as' => 'sales', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.sales.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
 
-	$router->get('/csr', [
-		'as' => 'csr', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.csr.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
+    Route::get('/service', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.service.index');
+    })->name('service');
 
-	$router->get('/contact', [
-		'as' => 'contact', function ($lang) use ($router) {
-			app('translator')->setLocale($lang);
-			return view('pages.contact.index')
-				->with('csrf_token', app('request')->session()->get('_token'));
-	}]);
 
+   /*  Route::get('/service/consulting', function ($lang) {
+         \App::setLocale($lang);
+         return view('fe.pages.service.consulting.index');
+     })->name('service.consulting');*/
+
+
+    // Route::get('/service/integrator', function ($lang) {
+    //     \App::setLocale($lang);
+    //     return view('fe.pages.service.integrator.index');
+    // })->name('service.integrator');
+
+
+    // Route::get('/service/marketing', function ($lang) {
+    //     \App::setLocale($lang);
+    //     return view('fe.pages.service.marketing.index');
+    // })->name('service.marketing');
+
+    
+
+
+
+    Route::get('/contact', function ($lang) {
+        \App::setLocale($lang);
+        return view('fe.pages.contact.index');
+    })->name('contact');
 });
+
+Route::get('/', function () {
+    return view('fe.pages.home.index');
+})->name('index');
+
+// Route::get('/home', function () {
+//     return view('fe.pages.home.index');
+// })->name('home');
+
+// Route::get('/about', function () {
+//     return view('fe.pages.about.index');
+// })->name('about');
+
+// Route::get('/about/company', function () {
+//     return view('fe.pages.about.company.index');
+// })->name('about.company');
+
+// Route::get('/about/member', function () {
+//     return view('fe.pages.about.member.index');
+// })->name('about.member');
+
+// Route::get('/about/access', function () {
+//     return view('fe.pages.about.access.index');
+// })->name('about.access');
+
+// Route::get('/service', function () {
+//     return view('fe.pages.service.index');
+// })->name('service');
+
+// Route::get('/service/consulting', function () {
+//     return view('fe.pages.service.consulting.index');
+// })->name('service.consulting');
+
+// Route::get('/service/integrator', function () {
+//     return view('fe.pages.service.integrator.index');
+// })->name('service.integrator');
+
+// Route::get('/service/marketing', function () {
+//     return view('fe.pages.service.marketing.index');
+// })->name('service.marketing');
+
+// Route::get('/product', function () {
+//     return view('fe.pages.product.index');
+// })->name('product');
+
+// Route::get('/contact', function () {
+// 	return view('fe.pages.contact.index');
+// })->name('contact');
